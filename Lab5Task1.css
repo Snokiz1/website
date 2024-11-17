@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1::before{
+    width: 100%;
+    display: flex;
+    position: relative;
+    content: "Responsive navigation menu on larger screen";
+}
+
+.header, .paragraph {
+    flex: 0 0 98%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background: #333;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar a{
+    padding: 0 20px;
+    float: left;
+    text-align: center;
+    padding: 14px 20px; 
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    a {
+        width: 100%;
+        float: none;
+    }
+
+    h1:before {
+        content: "Responsive navigation menu on smaller screen";
+    }
+}

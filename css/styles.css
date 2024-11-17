@@ -1,0 +1,227 @@
+/* Center Content Styling */
+.content-container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 250px;
+  text-align: center;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  width: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 20%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+section p {
+  text-align: justify;
+  line-height: 1.8;
+  margin: 15px auto;
+}
+
+/* Button Styling */
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+/* General Section Styling */
+.middle-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 15%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Center Content Styling */
+.centered-content {
+  margin: 40px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.centered-content h2 {
+  font-size: 2rem;
+  color: #66bfbf;
+  margin-bottom: 20px;
+}
+
+.centered-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0 auto 20px;
+  width: 70%;
+}
+
+/* Competency Headings */
+h3 {
+  font-size: 1.5rem;
+  color: #11999e;
+  margin-top: 30px;
+}
+/* Navbar Styling */
+.navbar {
+  background-color: #66bfbf;
+  padding: 10px 0;
+  text-align: center;
+  position: relative; /* Ensure proper stacking context */
+  z-index: 10; /* Higher stacking context */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  position: relative;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.nav-list a:hover {
+  background-color: #30e3cb;
+  border-radius: 5px;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #e4f9f5;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #11999e;
+  z-index: 20; /* Ensure dropdown is above other content */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu li a {
+  color: #11999e;
+  font-size: 1rem;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #30e3cb;
+  color: #ffffff;
+}
+
+/* Button Styling */
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+/* Center Image Styling */
+.profile-img {
+  width: 15%;
+  margin: 20px auto;
+}
+
+.content-container div {
+  margin: 30px auto;
+}
+
+/* General Adjustments for Sections */
+h3 {
+  font-size: 1.5rem;
+  color: #11999e;
+}
+
+p {
+  font-family: "Montserrat", sans-serif; /* Consistent font style */
+  font-size: 1rem; /* Adjust font size for readability */
+  line-height: 1.8; /* Better spacing between lines */
+  text-align: justify; /* Align text for clean edges */
+  margin: 15px auto; /* Add space around paragraphs */
+  width: 80%; /* Keep paragraphs from stretching too wide */
+}
+
